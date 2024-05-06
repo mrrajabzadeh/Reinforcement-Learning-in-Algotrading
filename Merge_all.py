@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# -*- coding: utf-8
 """
 Created on Thu Mar  7 11:25:08 2024
 
@@ -141,7 +141,7 @@ for data_name in data_names:
         print(f"Run {run_M + 1}/{num_runs_M}")
 
         # Run the script for the current dataset
-        os.system(f"python DC_Semi_{data_name}.py")  # This runs 'DC_Semi_<dataset_name>.py'
+        os.system(f"python DC_Sall_{data_name}.py")  # This runs 'DC_all_<dataset_name>.py'
 
         # Initialize or reset variables for this run
         q_table_M = pd.DataFrame(columns=['Sell', 'Buy', 'Hold'])
